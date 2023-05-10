@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+ #profile_pic {
+  width: 200px;
+}
+
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  border-radius: 16px;
+  padding: 10px;
+
+}
+
+body{
+  background-color: #0e2d2e;
+  color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+h1{
+  font-size: 30px;
+  color: bisque;
+}
+
+p{
+  font-size: small;
+  padding: 15px;
+}
+ .btn-link{
+  width: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-top: 10px ;
+}
+ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: bisque
+
+}
+a:hover{
+  color: antiquewhite;
+}btn button{
+  color:black ;
+}
+.list-inline{
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
